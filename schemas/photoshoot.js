@@ -30,7 +30,7 @@ export default {
       name: 'photos',
       title: 'Protos',
       type: 'array',
-      of: [{type: 'reference', to: {type: 'imagephoto'}}],
+      of: [{type: 'reference', to: {type: 'imagephotos'}}],
     },
     {
       name: 'body',
