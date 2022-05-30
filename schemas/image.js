@@ -1,10 +1,10 @@
 export default {
-  name: 'imagephoto',
+  name: 'imagephotos',
   title: 'Image',
   type: 'document',
   fields: [
     {
-      name: 'imagephoto',
+      name: 'imagephotos',
       title: 'Image',
       type: 'string',
     },
@@ -13,7 +13,7 @@ export default {
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'imagephoto',
+        source: 'imagephotos',
         maxLength: 96,
       },
     },
