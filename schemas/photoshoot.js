@@ -28,7 +28,7 @@ export default {
     
     {
       name: 'photos',
-      title: 'Protos',
+      title: 'Photos',
       type: 'array',
       of: [{type: 'reference', to: {type: 'imagephotos'}}],
     },
